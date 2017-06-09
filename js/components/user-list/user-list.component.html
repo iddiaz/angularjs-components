@@ -1,0 +1,10 @@
+<h3>UserListComponent works!</h3>
+<hr>
+
+<ul ng-repeat="user in $ctrl.users">
+   <li>{{user.name}}, {{user.email}}</li>
+</ul>
+
+<hr>
+
+<user-detail-component ng-repeat="user in $ctrl.users" usuario="user" numero="{{$index}}"></user-detail-component>

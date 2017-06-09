@@ -3,7 +3,9 @@
 
    angular.module('app', [
         'appHeaderModule',
-        'appContadorModule'
+        'appContadorModule',
+        'appUserListModule',
+        'appUserDetailModule'
    ])
       .controller('appController', [ function(){
          this.title = 'App works!';
